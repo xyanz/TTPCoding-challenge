@@ -1,5 +1,5 @@
 ## Brute Force Solution:
-```function sumOfTwo(a,b,v){
+function sumOfTwo(a,b,v){
   for (let i = 0; i < a.length - 1; i++) {
     for (let j = 0; j < b.length - 1; j++) {
       if (a[i] + b[j] == v) {
@@ -8,10 +8,10 @@
     }
   }
   return false;
-}```
+}
 
 ## HashMap Solution:
-```
+
 function sumOfTwo(a,b,v) {
   arr1 = {};
   arr2 = {};
@@ -32,4 +32,4 @@ function sumOfTwo(a,b,v) {
     i++;
   }
   return false;
-}```
+}
